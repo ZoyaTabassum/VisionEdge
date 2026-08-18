@@ -654,5 +654,23 @@ The project successfully progresses from object detection on images to GPU-accel
 
 The implementation provides a foundation for extending the prototype toward a more advanced real-time edge computer vision system.
 
+### PyAV Video Decoding
+
+
+
+PyAV was used to decode the input video and extract raw video frames.
+
+
+
+\- Frames successfully decoded: 100
+
+\- Frame resolution: 480 × 864
+
+\- Pixel format: yuv420p
+
+
+
+The decoding test completed successfully.
+
 
 
