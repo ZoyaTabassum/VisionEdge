@@ -316,6 +316,48 @@ A controlled 5-run benchmark was then performed using the Intel Arc GPU through 
 
 The benchmark confirms that the exported YOLO11n model can be executed successfully on the Intel Arc GPU using OpenVINO.
 
+### Performance Comparison
+
+
+
+Recorded benchmark results:
+
+
+
+| Pipeline | Average Inference Time | Approx. FPS |
+
+|---|---:|---:|
+
+| PyTorch CPU | 71.82 ms | 13.92 FPS |
+
+| OpenVINO + Intel Arc GPU | 23.98 ms | 41.71 FPS |
+
+
+
+The recorded OpenVINO + Intel Arc GPU pipeline achieved approximately 3.0× the FPS of the PyTorch CPU baseline under these benchmark conditions.
+
+### Continuous Inference Stability
+
+
+
+A 20-run continuous inference test was performed using the OpenVINO model on the Intel Arc GPU.
+
+
+
+\- Runs completed: 20
+
+\- Average inference time: 26.79 ms
+
+\- Minimum inference time: 20.73 ms
+
+\- Maximum inference time: 31.05 ms
+
+\- Result: All 20 inference runs completed successfully without inference failure.
+
+
+
+This test demonstrates continuous inference stability. It does not constitute a direct measurement of VRAM memory usage.
+
 
 ## 11. Video Processing
 
