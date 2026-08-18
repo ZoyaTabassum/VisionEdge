@@ -205,6 +205,39 @@ def home():
     </div>
 
 </div>
+<div class="card">
+
+    <h2>Performance Telemetry</h2>
+
+    <div class="grid">
+
+        <div class="metric">
+            Benchmark FPS
+            <strong>41.71</strong>
+        </div>
+
+        <div class="metric">
+            Avg. Inference
+            <strong>23.98 ms</strong>
+        </div>
+
+        <div class="metric">
+            Stability Runs
+            <strong>20</strong>
+        </div>
+
+        <div class="metric">
+            Stability Avg.
+            <strong>26.79 ms</strong>
+        </div>
+
+    </div>
+
+    <p style="margin-top:20px;color:#64748b;">
+        Recorded benchmark metrics from the VisionEdge Intel Arc GPU pipeline.
+    </p>
+
+</div>
 
 </body>
 </html>
